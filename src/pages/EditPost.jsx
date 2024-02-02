@@ -29,13 +29,6 @@ const EditPost = () => {
 
    const POST_CATEGORIES = ["Agriculture", "Business", "Education", "Entertainment", "Art", "Investment",
   "Uncategorized", "Weather"]
-
-
-
-
-
-
-
   
   return (
    <section className="create-post">

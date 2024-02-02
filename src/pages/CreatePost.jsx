@@ -36,7 +36,7 @@ const CreatePost = () => {
 
 
 
-  
+
   return (
    <section className="create-post">
     <div className="container">

@@ -1,10 +1,8 @@
 import React from 'react'
 
-function Logout() {
+const Logout = () => {
   return (
-    <div>
-      
-    </div>
+    <div>Logout</div>
   )
 }
 

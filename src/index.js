@@ -10,7 +10,7 @@ import PostDetail from './pages/PostDetail'
 import Register from './pages/Register'
 import Login from './pages/Login'
 import UserProfile from './pages/UserProfile'
-import Authors from './pages/Author'
+import Authors from './pages/Authors'
 import CreatePost from './pages/CreatePost'
 import EditPost from './pages/EditPost'
 import DeletePost from './pages/DeletePost'
@@ -18,8 +18,9 @@ import CategoryPosts from './pages/CategoryPosts'
 import AuthorPosts from './pages/AuthorPosts'
 import Dashboard from './pages/Dashboard'
 import Logout from './pages/Logout'
+
 const router = createBrowserRouter([
-{
+  {
     path: "/",
     element: <Layout/>,
     errorElement: <ErrorPage/>,
@@ -34,19 +35,17 @@ const router = createBrowserRouter([
       {path: "posts/categories/:category", element: <CategoryPosts />},
       {path: "posts/users/:id", element: <AuthorPosts />},
       {path: "myposts/:id", element: <Dashboard />},
-      {path: "posts/:Id/edit", element: <EditPost />},
-      {path: "myposts/:Id/delete", element: <DeletePost />},
+      {path: "posts/:id/edit", element: <EditPost />},
+      {path: "posts/:id/delete", element: <DeletePost />},
       {path: "logout", element: <Logout />},
-     ]
-
-}
+    ]
+  }
 ])
-
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <RouterProvider router={router}/>
+    <RouterProvider router={router}/>
   </React.StrictMode>
 );
 
