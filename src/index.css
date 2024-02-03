@@ -10,6 +10,9 @@
     --color-gray-500: hsl(220, 20%, 10%, 5%);
     --color-gray-700: #252542;
     --color-gray-900: #0c0c22;
+    --color-beige: #E0FFFF;
+    --color-darkblue: #483D8B;
+    --color-green:#008000;
 
     --color-bg: hwb(240 95% 0%);
 
@@ -185,7 +188,7 @@ nav {
 
 /*================================= FOOTER =================================*/
 footer {
-    background: var(--color-gray-900);
+    background: var(--color-darkblue);
     margin-top: 6rem;
     padding-top: 6rem;
 }
@@ -228,7 +231,7 @@ footer {
 }
 
 .post {
-    background: var(--color-white);
+    background: var(--color-beige);
     padding: 1rem;
     border-radius: var(--radius-4);
     padding-bottom: 2rem;
@@ -440,7 +443,7 @@ input, select, textarea {
 .profile__avatar-btn {
     cursor: pointer;
     padding: 0;
-    background: var(--color-primary);
+    background: var(--color-green);
 }
 
 .profile__details h1 {

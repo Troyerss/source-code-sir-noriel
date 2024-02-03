@@ -30,7 +30,7 @@ const UserProfile = () => {
             <button className="profile__avatar-btn"><FaCheck/></button>
           </div>
 
-          <h1>Ernest Achiever</h1>
+          <h1>Brendan Troy Javier</h1>
 
           {/* form to update user details */}
           <form className="form profile__form">
